@@ -1,0 +1,123 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+border: 0;
+
+}
+
+
+
+
+body {
+      background-color: orange;
+     }
+
+header, footer {
+               text-align: center;
+               }
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:50px;
+    color: #fff; /* white */
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+   }
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	padding: 10px;
+}
+
+.item {
+       background-color: rgba(255,235,194,0.54);
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+}
+/* let's bring the width in a little */
+/* check it out - we're responsive without even trying! */ 
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 1000px;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+/* let's talk about nesting */ 
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+font-style: italic;
+	font-size: 300%;
+	padding-left: 30px;
+}
+
+
+nav {
+text-align: center;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+nav li {
+display: inline-block;
+}
+/* nav li a, or nav a ?? */ nav a {
+background: brown; 
+color: white;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background: orange;
+	color:black
+}
+body {
+background-color: orange;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+
+table {
+	max-width: 100%;
+	height: auto;
+	resize:inherit
+}
+
+
+.footersize
+{
+	font-size: 15px;
+}
